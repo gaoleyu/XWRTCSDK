@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XWRTCSDK_Example' do
+  pod 'XWRTCSDK', :path => '../'
+
+  target 'XWRTCSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
