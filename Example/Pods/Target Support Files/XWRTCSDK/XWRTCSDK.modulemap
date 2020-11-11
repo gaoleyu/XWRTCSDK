@@ -1,0 +1,6 @@
+framework module XWRTCSDK {
+  umbrella header "XWRTCSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

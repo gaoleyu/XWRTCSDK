@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XWRTCSDK (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XWRTCSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  XWRTCSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XWRTCSDK: 1b1ae310f6bc842507d244b7b25dbe2773e9809c
+
+PODFILE CHECKSUM: 8e7ec4a8379f1c78f4ce6cf5bbda6b8f04d38433
+
+COCOAPODS: 1.9.3
